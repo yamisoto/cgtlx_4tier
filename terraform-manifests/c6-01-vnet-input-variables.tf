@@ -66,7 +66,14 @@ variable "bastion_subnet_address" {
   description = "Virtual Network Bastion Subnet Address Spaces"
   type = list(string)
   default = ["10.0.100.0/24"]
+
+
+
+
 }
 
 
 
+
+
+ 

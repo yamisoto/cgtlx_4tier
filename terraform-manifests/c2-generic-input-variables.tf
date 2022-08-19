@@ -3,7 +3,7 @@
 variable "business_divsion" {
   description = "Business Division in the large organization this Infrastructure belongs"
   type = string
-  default = "moye"
+  default = "CGTLX"
 }
 # Environment Variable
 variable "environment" {
@@ -16,7 +16,7 @@ variable "environment" {
 variable "resource_group_name" {
   description = "Resource Group Name"
   type = string
-  default = "rg-default"  
+  default = " cgtlx_rg"  
 }
 
 # Azure Resources Location
